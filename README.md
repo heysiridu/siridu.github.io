@@ -97,7 +97,7 @@ To further enhance accuracy, we implemented a threshold-based refinement for the
 
 <p align="center">
   <img src="/assets/img/slack2.png" alt="High confidence: one option only" width="300">
-  <img src="/assets/img/slack3.png" alt="High confidence: one option only" width="300">
+  <img src="/assets/img/slack3.png" alt="High confidence: two option" width="300">
 </p>
 
 ---
