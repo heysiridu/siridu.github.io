@@ -1,2 +1,11 @@
-# siridu.github.io
-This is my personal website
+# Technical Product Manager, current MBA at CBS
+
+### Education
+CBS
+UCLA
+
+### Work Experience
+TikTok Product Manager
+
+### Projects
+
