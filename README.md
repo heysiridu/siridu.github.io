@@ -101,5 +101,5 @@ By automating 15.2% of Electric’s 44,000 monthly tickets (6,688 tickets), and 
 In the future, we suggest removing the asterisks and cleaning the dataset for better performance. With the 90% accuracy of the current model, Electric could develop APIs for fully automated processes. This project demonstrated how machine learning techniques can transform IT support. By automating repetitive and routine IT requests, Electric can significantly improve efficiency, reduce costs, and empower the team to focus on more complex challenges.
 
 #### References
-- [Link to Electric.ai >>](https://www.electric.ai/)  
-- [Link to TikTok Effect House >>](https://effecthouse.tiktok.com/)
+- [Link to Electric.ai](https://www.electric.ai/)  
+- [Link to TikTok Effect House](https://effecthouse.tiktok.com/)
