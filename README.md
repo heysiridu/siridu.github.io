@@ -5,7 +5,7 @@ I am an MBA student at Columbia Business School and expect to graduate in Spring
 
 ### Project 1: 3D Effect Engine at TikTok
 > Role: TikTok Product Manager @ Effects and Creation Team
-> 
+
 I led product planning and design for the 3D effect engine at TikTok, in alignment with company-level revenue and profit goals. I have spearheaded the 3D effect engine’s usage growth and promotion effort, increasing the browsing rate by 62%. TikTok engine works both for Chinese TikTok and U.S. TikTok. The algorithm recommendation for effects only applies in Chinese TikTok. 
 
 Image for the Product Design 👇🏻 
@@ -16,9 +16,10 @@ Image for the Product Design 👇🏻
 
 Gif for the Most Popular 3D Effects 👇🏻
 <p float="left">
-  <img src="assets/img/ani2.gif" alt="Animation 1" width="163">
-  <img src="assets/img/ani3.gif" alt="Animation 2" width="163">
-  <img src="assets/img/ani4.gif" alt="Animation 3" width="163">
+  <img src="assets/img/ani2.gif" alt="Animation 1" width="122">
+  <img src="assets/img/ani3.gif" alt="Animation 2" width="122">
+  <img src="assets/img/ani4.gif" alt="Animation 3" width="122">
+  <img src="assets/img/ani5.gif" alt="Animation 3" width="122">
 </p>
 
 ### Project 2: Machine Learning Models at Columbia Business School
@@ -40,6 +41,9 @@ The **first challenge** is message misalignment. The data contained entire conve
 The **second challenge** is too many ticket categories and asterisks. With over 200 categories, predicting outcomes became complex. We solved the problem by consolidating these into 8 key, actionable categories. For asterisks, we prioritized data with minimal masking and filtered out over-masked messages.
 
 The **third challenge** is data imbalance. Some categories had significantly more examples than others. We used upsampling and downsampling techniques such as SMOTE to balance the dataset. The left image is the data imbalance, while the right image is the results of SMOTE technique 👇🏻 
+<p float="left">
+  <img src="assets/img/a1.png" alt="data imbalance" width="600">
+</p>
 
 #### Build Category Prediction Models
 
@@ -56,8 +60,8 @@ The category prediction model used Snowflake embedding and logistic regression, 
 
 In conclusion, LightGBM emerged as the top performer, achieving an 83% weighted average precision. Other models like XGBoost and Random Forest also delivered strong results, achieving approximately 82%. The image shows results across different models 👇🏻
 
-<p align="center">
-  <img src="assets/img/a1.png" alt="Results for different models" width="500">
+<p float="left">
+  <img src="assets/img/a2.png" alt="Results for different models" width="600">
 </p>
 
 ### Refining Predictions: A Threshold-Based Approach
@@ -71,7 +75,8 @@ To further enhance accuracy, we implemented a threshold-based refinement for the
 Recommendation: A threshold range of 79%-98% to ensure 90%-95% correct category inclusion while avoiding excessive two-prediction outputs.
 
 <p float = "left">
-  <img src="assets/img/a2.png" alt="Threshold analysis" width="600">
+  <img src="assets/img/a3.png" alt="Threshold analysis" width="600">
+  <img src="assets/img/a4.png" alt="Threshold analysis table" width="600">
 </p>
 
 #### Product Mockup from Threshold-based Approach
