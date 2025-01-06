@@ -1,4 +1,6 @@
+<head>
  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+</head>
  
 # Technical Product Manager
 > Technical Skills: Java, Python, SQL, AWS, Snowflake, and Figma
