@@ -8,13 +8,13 @@
 I led the development of U.S. and Chinese version of TikTok Effect House. The screenshot below is a user interface. The GIFs were the most popular 3D effects on Chinese TikTok platform. 
 
 <p align="center">
-  <img src="/assets/img/tiktok1.png" alt="TikTok 3D effect engine" width="600">
+  <img src="assets/img/tiktok1.png" alt="TikTok 3D effect engine" width="600">
 </p>
 
 <p align="center">
-  <img src="/assets/img/ani2.gif" alt="Animation 1" width="200">
-  <img src="/assets/img/ani3.gif" alt="Animation 2" width="200">
-  <img src="/assets/img/ani4.gif" alt="Animation 3" width="200">
+  <img src="assets/img/ani2.gif" alt="Animation 1" width="200">
+  <img src="assets/img/ani3.gif" alt="Animation 2" width="200">
+  <img src="assets/img/ani4.gif" alt="Animation 3" width="200">
 </p>
 
 ---
