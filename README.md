@@ -14,9 +14,9 @@
 - Visual Showcases for some of the most popular effects
 
 <p float="left">
-  <img src="assets/img/ani2.gif" alt="Animation 1" width="150">
-  <img src="assets/img/ani3.gif" alt="Animation 2" width="150">
-  <img src="assets/img/ani4.gif" alt="Animation 3" width="150">
+  <img src="assets/img/ani2.gif" alt="Animation 1" width="155">
+  <img src="assets/img/ani3.gif" alt="Animation 2" width="155">
+  <img src="assets/img/ani4.gif" alt="Animation 3" width="155">
 </p>
 
 ---
