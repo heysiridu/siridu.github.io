@@ -1,20 +1,23 @@
-# Technical Product Manager (Currently an MBA)
-#### Technical Skills: Java, Python, SQL, AWS, Snowflake, and Figma
+# Technical Product Manager
+**Technical Skills** Java, Python, SQL, AWS, Snowflake, and Figma
 
----
+**Brief Self-intro** I am an MBA student at Columbia Business School and expect to graduate in Spring 2025. I am taking a series of Computer Science classes at Columbia Engineering. Before my MBA, I was a product manager at TikTok, building a 3D effect engine and working with the machine learning algorithm to allocate traffic on TikTok. I also worked in a series C product-led growth designer collaboration platform and led the AI functions roadmap.
 
 ## Professional Experience
 ### TikTok Product Manager @ Effects and Creation Team
-I led the development of U.S. and Chinese version of TikTok Effect House. The screenshot below is a user interface. The GIFs were the most popular 3D effects on Chinese TikTok platform. 
+- Led product planning and design for 3D effect engine at TikTok, in alignment with company-level revenue and profits goals
+- Spearheaded the 3D effect engine's usage growth and promotion effort, increasing browsing rate by 62%
 
 <p align="center">
   <img src="assets/img/tiktok1.png" alt="TikTok 3D effect engine" width="600">
 </p>
 
+- Visual Showcases for some most popular effects
+
 <p align="center">
-  <img src="assets/img/ani2.gif" alt="Animation 1" width="200">
-  <img src="assets/img/ani3.gif" alt="Animation 2" width="200">
-  <img src="assets/img/ani4.gif" alt="Animation 3" width="200">
+  <img src="assets/img/ani2.gif" alt="Animation 1" width="180">
+  <img src="assets/img/ani3.gif" alt="Animation 2" width="180">
+  <img src="assets/img/ani4.gif" alt="Animation 3" width="180">
 </p>
 
 ---
