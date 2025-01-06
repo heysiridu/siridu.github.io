@@ -14,9 +14,9 @@
 - Visual Showcases for some of the most popular effects
 
 <p float="left">
-  <img src="assets/img/ani2.gif" alt="Animation 1" width="200">
-  <img src="assets/img/ani3.gif" alt="Animation 2" width="200">
-  <img src="assets/img/ani4.gif" alt="Animation 3" width="200">
+  <img src="assets/img/ani2.gif" alt="Animation 1" width="180">
+  <img src="assets/img/ani3.gif" alt="Animation 2" width="180">
+  <img src="assets/img/ani4.gif" alt="Animation 3" width="180">
 </p>
 
 ---
@@ -28,7 +28,7 @@ In 2024 Fall, I enrolled in the Analytics in Action class at Columbia Business S
 
 ### Current Situation: A Human-agent Chat-based System
 <p align="center">
-  <img src="assets/img/slack1.png" alt="Slack conversation with a human agent" width="500">
+  <img src="assets/img/slack1.png" alt="Slack conversation with a human agent" width="600">
 </p>
 
 Electric helps clients by solving their IT and security needs. Part of their help is about receiving tickets from email, website, and Slack. Most of the tickets are from Slack. User starts a direct message with a human agent. They solve the problem in the conversation. Electric handles 44,000 tickets monthly, costing them $1.3 million per month. While the existing human agents can handle tickets effectively, most of the tickets are repetitive and can be easily automated through classification models.
@@ -37,21 +37,21 @@ Our project is to help Electric reduce this cost by designing a prediction model
 
 ### Key Data Challenges Before Building Models
 
-- **Challenge 1: Message Misalignment**  
+- **Challenge 1** Message Misalignment
   The data contained entire conversations, many parts of which were irrelevant for initial category identification. We only need the first message for category prediction.  
-- **Solution 1**: We focused solely on the initial user messages for immediate classification.
+- **Solution**: We focused solely on the initial user messages for immediate classification.
 
-- **Challenge 2: Too Many Ticket Categories**  
+- **Challenge 2** Too Many Ticket Categories  
   With over 200 categories, predicting outcomes became complex.  
-- **Solution 2**: We consolidated these into 8 key, actionable categories.
+- **Solution**: We consolidated these into 8 key, actionable categories.
 
-- **Challenge 3: Data Imbalance**  
+- **Challenge 3** Data Imbalance  
   Some categories had significantly more examples than others.  
-- **Solution 3**: We used upsampling and downsampling techniques such as SMOTE to balance the dataset.
+- **Solution**: We used upsampling and downsampling techniques such as SMOTE to balance the dataset.
 
-- **Challenge 4: Overmasking**  
+- **Challenge 4** Overmasking
   About 20% of messages were heavily masked, reducing their usability.  
-- **Solution 4**: We prioritized data with minimal masking and filtered out over-masked messages.
+- **Solution**: We prioritized data with minimal masking and filtered out over-masked messages.
 
 ### Build Category Prediction Models
 
@@ -83,15 +83,22 @@ To further enhance accuracy, we implemented a threshold-based refinement for the
 Recommendation: A threshold range of 79%-98% to ensure 90%-95% correct category inclusion while avoiding excessive two-prediction outputs.
 
 <p align="center">
-  <img src="assets/img/a2.png" alt="Threshold analysis" width="500">
+  <img src="assets/img/a2.png" alt="Threshold analysis" width="600">
 </p>
 
 ### Product Mockup from Threshold-based Approach
+To demonstrate how the threshold-based model works in reality, we build several product mockups: 
+- Scenario 1: when the prediction model is highly confident about one option, it produces only one result. For example, “Add John Doe to the Electric IT Support channel in Slack” resulted in a single, confident prediction. If none of them satisfy the options, the "CANCEL" button directs the user to human agents.
+<p align="center">
+  <img src="assets/img/slack2.png" alt="High confidence: one option only" width="600">
+</p> 
+
+- Scenario 2: when the model is less confident about prediction results, it outputs two options. A more ambiguous request like "Add her on Slack to the engineering team" resulted in two options: “Add to Engineering Channel” and “Add to ML/AI Group,” giving the user more freedom to pick. If none of them satisfy the options, the "CANCEL" button directs the user to human agents.
 
 <p align="center">
-  <img src="assets/img/slack2.png" alt="High confidence: one option only" width="300">
-  <img src="assets/img/slack3.png" alt="High confidence: two option" width="300">
-</p>
+  <img src="assets/img/slack3.png" alt="High confidence: two option" width="600">
+</p>   
+
 
 ### Business Value
 By automating 15.2% of Electric’s 44,000 monthly tickets (6,688 tickets), and assuming a $30 cost for manual handling and a 90% model precision, we project potential monthly savings of $180,576 and annual savings exceeding $2 million.
